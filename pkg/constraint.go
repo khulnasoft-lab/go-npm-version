@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/khulnasoft-labs/goversion/pkg/part"
-	"github.com/khulnasoft-labs/goversion/pkg/semver"
+	"github.com/khulnasoft-lab/goversion/pkg/part"
+	"github.com/khulnasoft-lab/goversion/pkg/semver"
 )
 
 const cvRegex string = `v?([0-9|x|X|\*]+)(\.[0-9|x|X|\*]+)?(\.[0-9|x|X|\*]+)?` +

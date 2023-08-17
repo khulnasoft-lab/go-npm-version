@@ -4,8 +4,8 @@ github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46t
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/khulnasoft-labs/goversion v1.0.0 h1:1VL+7EFgioPbJbI5Ra4zMavtLVKlnsG7x0yHO5K9OiM=
-github.com/khulnasoft-labs/goversion v1.0.0/go.mod h1:DmJW3cdZonubNsMgFo81Whr/ED93+PpOzkB+UbbzNn8=
+github.com/khulnasoft-lab/goversion v1.0.1 h1:RanzuyV3ctIoyD5nyw0jKS+/fdJTZLOz1bGJ7AuYrxs=
+github.com/khulnasoft-lab/goversion v1.0.1/go.mod h1:iXm1znzsGbrRSEC79WM5NHsSDJabotwY4FWy2Fsg3ms=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/russross/blackfriday/v2 v2.1.0 h1:JIOH55/0cWyOuilr9/qlrm0BSXldqnqwMsf35Ld67mk=

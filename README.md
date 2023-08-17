@@ -1,8 +1,8 @@
 # go-npm-version
 
-![Test](https://github.com/khulnasoft-labs/go-npm-version/workflows/Test/badge.svg?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-labs/go-npm-version)](https://goreportcard.com/report/github.com/khulnasoft-labs/go-npm-version)
-![GitHub](https://img.shields.io/github/license/khulnasoft-labs/go-npm-version)
+![Test](https://github.com/khulnasoft-lab/go-npm-version/workflows/Test/badge.svg?branch=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/go-npm-version)](https://goreportcard.com/report/github.com/khulnasoft-lab/go-npm-version)
+![GitHub](https://img.shields.io/github/license/khulnasoft-lab/go-npm-version)
 
 go-npm-version is a library for parsing npm versions and version constraints, and verifying versions against a set of constraints.
 go-npm-version can sort a collection of versions properly, handles prerelease versions, etc.

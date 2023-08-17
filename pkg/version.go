@@ -1,7 +1,7 @@
 package npm
 
 import (
-	"github.com/khulnasoft-labs/goversion/pkg/semver"
+	"github.com/khulnasoft-lab/goversion/pkg/semver"
 )
 
 // Version represents a semantic version.

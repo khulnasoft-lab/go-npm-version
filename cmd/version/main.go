@@ -7,7 +7,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	npm "github.com/khulnasoft-labs/go-npm-version/pkg"
+	npm "github.com/khulnasoft-lab/go-npm-version/pkg"
 )
 
 func main() {

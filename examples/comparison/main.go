@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/khulnasoft-labs/go-npm-version/pkg"
+	"github.com/khulnasoft-lab/go-npm-version/pkg"
 )
 
 func main() {
