@@ -7,7 +7,7 @@ jobs:
         go-version: [1.14.x, 1.15.x]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4
       - uses: actions/setup-go@v4
         with:
           go-version: '1.16.0-beta.1' # The Go version to download (if necessary) and use.
