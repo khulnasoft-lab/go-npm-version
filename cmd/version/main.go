@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/urfave/cli/v2"
+	cli "github.com/urfave/cli/v2"
 
 	npm "github.com/khulnasoft-lab/go-npm-version/pkg"
 )
@@ -38,20 +38,20 @@ func main() {
 				Name:    "satisfy",
 				Aliases: []string{"s"},
 				Usage:   "check if the version satisfies the constraint",
-				Action: func(ctx *cli.Context) error {
-					s1 := ctx.Args().Get(0)
+				Action: func(c *cli.Context) error {
+					s1 := c.Args().Get(0)
 					v, err := npm.NewVersion(s1)
 					if err != nil {
 						log.Fatalf("failed to parse npm version (%s): %s", s1, err)
 					}
 
-					s2 := ctx.Args().Get(1)
-					c, err := npm.NewConstraints(s2)
+					s2 := c.Args().Get(1)
+					constraint, err := npm.NewConstraints(s2)
 					if err != nil {
 						log.Fatalf("failed to parse npm constraint (%s): %s", s2, err)
 					}
 
-					fmt.Println(c.Check(v))
+					fmt.Println(constraint.Check(v))
 					return nil
 				},
 			},
