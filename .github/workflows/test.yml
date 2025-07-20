@@ -2,13 +2,22 @@ on: [push, pull_request]
 name: Test
 jobs:
   test:
-    strategy:
-      matrix:
-        go-version: [1.14.x, 1.15.x]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-go@v4
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Go
+        uses: actions/setup-go@v5
         with:
-          go-version: '1.16.0-beta.1' # The Go version to download (if necessary) and use.
-      - run: go version
+          go-version-file: 'go.mod'
+
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v7.0.0
+        with:
+          version: v2.1
+          args: --verbose
+
+      - name: Test
+        run: go test ./...
